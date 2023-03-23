@@ -1,16 +1,10 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10270139&assignment_repo_type=AssignmentRepo)
-# assignment7
+#Description
+A simple Yelp-like clone utilizing Yelp Fusion API to look up local restaurant in your area. You can create an account, which will be securely stored in MongoDB.
 
-1. Go to the MongoDB Atlas website at https://www.mongodb.com/cloud/atlas and click the "Get started for free" button.
+#How to run
+Move to the 'server' folder and run this command.
+```
+npm run dev
+```
 
-2. If you don't already have a MongoDB account, you will need to create one by filling out the form with your name, email address, and a password. If you already have an account, you can log in with your existing credentials.
-
-3. Once you're logged in, you'll be prompted to create a new project. Give your project a name and select the organization where you want the project to be located (if you have multiple organizations). Then click the "Create Project" button.
-
-4. You'll be taken to the project dashboard, where you can start setting up your database. Click the "Build a Cluster" button to create a new cluster.
-
-5. Choose your preferred cloud provider and region, and then select the cluster tier you want to use. You can also customize the cluster configuration and settings to your liking.
-
-6. Give your cluster a name and click the "Create Cluster" button. This will initiate the process of creating the cluster and provisioning the resources.
-
-7. Once the cluster is created, you can start creating databases, collections, and users by clicking on the "Collections" tab. You can also configure security settings, set up backups, and manage other features of your cluster from this dashboard
+Click this website to enable access to API call: https://cors-anywhere.herokuapp.com/corsdemo
